@@ -4,7 +4,7 @@ The scripts can be found [HERE](https://github.com/Lulutiger2023/Applied_Bioinfo
 
 ## Introduction
 
-***Dataset**: SRX253962 (Illumina whole genome shotgun sequencing of genomic DNA paired-end library 'Sage-129330' containing sample HG03788)
+**Dataset**: SRX253962 (Illumina whole genome shotgun sequencing of genomic DNA paired-end library 'Sage-129330' containing sample HG03788)
 
 **Study:** Whole genome sequencing of (ITU) Indian Telugu in the UK HapMap population. DNA for sequencing was extracted from whole blood.
 
@@ -69,13 +69,13 @@ multiqc -o ${PDIR} ${PDIR}
 
 # Comparison
 
-Before quality control:
+**Before quality control:**
 
 In the original data, the quality of the bases significantly dropped after position 50, with many of the bases at positions 70-95 falling into the red zone (indicating Phred scores below 20, which means less than 99% accuracy).
 
 ![](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week6_images/before.jpg)
 
-After quality control:
+**After quality control:**
 
 Trimming has successfully removed the worst-quality bases. The drop in quality at the end of the reads has been reduced. Although the quality still declines after position 50, the steep drop seen earlier has been mitigated. The trimmed reads now have fewer low-quality bases at the end, and fewer bases fall into the red or yellow zones.
 
