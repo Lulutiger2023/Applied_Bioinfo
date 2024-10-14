@@ -38,19 +38,19 @@ $ cat GCF_000146045.2_R64_genomic.fna | head -1
 
 **1.IGV_visualization**
 
-![1.IGV_visualization](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3_Images/1.IGV_visualization.jpg)
+![1.IGV_visualization](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3/1.IGV_visualization.jpg)
 
 **2.Extracted gene_file**
 
-![2.gene_file](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3_Images/2.gene_file.jpg)
+![2.gene_file](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3/2.gene_file.jpg)
 
 **3.gene_track**
 
-![3.gene_track.pic](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3_Images/3.gene_track.pic.jpg)
+![3.gene_track.pic](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3/3.gene_track.pic.jpg)
 
 **4.My Gff file**
 
-![4.creat_Gff](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3_Images/4.creat_Gff.jpg)
+![4.creat_Gff](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week3/4.creat_Gff.jpg)
 
 ## Additional notes
 
