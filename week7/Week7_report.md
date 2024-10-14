@@ -4,6 +4,7 @@ This document explains how to use the `Makefile` to execute various bioinformati
 
 ### Targets in the Makefile
 
+- **usage**: Guides users for this Makefile.
 - **genome**: Downloads the reference genome and prepares it for simulations.
 - **simulate**: Simulates paired-end reads from the downloaded genome using `wgsim`.
 - **download**: Downloads reads from SRA using `fastq-dump`.
