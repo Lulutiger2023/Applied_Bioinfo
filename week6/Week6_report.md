@@ -73,7 +73,7 @@ multiqc -o ${PDIR} ${PDIR}
 
 In the original data, the quality of the bases significantly dropped after position 50, with many of the bases at positions 70-95 falling into the red zone (indicating Phred scores below 20, which means less than 99% accuracy).
 
-![](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week6_images/before.jpg)
+![](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week6/before.jpg)
 
 **After quality control:**
 
@@ -81,7 +81,7 @@ Trimming has successfully removed the worst-quality bases. The drop in quality a
 
 This improves the reliability of the data for downstream analysis, particularly in regions where poor quality would have introduced noise.
 
-![](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week6_images/after.jpg)
+![](https://github.com/Lulutiger2023/Applied_Bioinfo/blob/main/week6/after.jpg)
 
 
 
