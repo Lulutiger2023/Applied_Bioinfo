@@ -35,7 +35,7 @@ GFF=annotations.gff
 PDIR=reports
 
 # Default target
-all: genome simulate download trim fastqc index bam vcf
+all: genome simulate download trim fastqc index bam vcf prepare_vcf snpeff
 
 # Print usage
 usage:
@@ -146,14 +146,5 @@ snpeff: prepare_vcf gffdownload
 		bcftools view -O z -o results/snpeff.vcf.gz
 	bcftools index results/snpeff.vcf.gz
 
-# Check results
-check_results:
-	@echo "Checking results..."
-	@echo "Number of variants with annotations:"
-	bcftools view results/snpeff.vcf.gz | grep -c "ANN="
-	@echo "\nFirst few annotated variants:"
-	bcftools view results/snpeff.vcf.gz | grep "ANN=" | head -n 5
-
-
 # These targets do not correspond to files
-.PHONY: all usage genome simulate download trim fastqc index bam vcf prepare_vcf snpeff clean_snpeff
+.PHONY: all usage genome simulate download trim fastqc index bam vcf prepare_vcf snpeff
